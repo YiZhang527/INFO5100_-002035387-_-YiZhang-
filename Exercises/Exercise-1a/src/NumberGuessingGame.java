@@ -18,6 +18,7 @@ public class NumberGuessingGame {
                     break;
                 case 2:
                     System.out.println("Good Bye!");
+                    break;
                 default:
                     System.out.println("Wrong Choice! Please enter 1 or 2.");
             }
@@ -30,6 +31,7 @@ public class NumberGuessingGame {
         Random rand = new Random();
         int answer = rand.nextInt(10) + 1;
         boolean gameOver = false;
+        System.out.println("I have generated a number between 1 and 10. You have at most 5 attempts to guess it.");
         for (int i = 1; i <= 5; i++) {
             System.out.println("Please enter the number between 1-10 you want to guess:");
             int number = userInput.nextInt();
