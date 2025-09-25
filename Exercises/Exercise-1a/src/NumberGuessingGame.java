@@ -22,7 +22,6 @@ public class NumberGuessingGame {
                 default:
                     System.out.println("Wrong Choice! Please enter 1 or 2.");
             }
-            ;
         } while (choice != 2);
         userInput.close();
     }
