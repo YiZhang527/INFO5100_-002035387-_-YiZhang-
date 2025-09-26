@@ -9,8 +9,8 @@
 
 ### Menu Loop
 - The program shows the menu repeatedly until the input is "2. Exit" through do-while loop:
-  Option 1: Start the game
-  Option 2: Exit
+  - Option 1: Start the game
+  - Option 2: Exit
 - The user enter the choice, and the switch statement will handle the input:
   If the user enters 1, the program calls the startGame() method.
   if the user enters 2, the program says "Good Bye!" and exits the do-while loop.
