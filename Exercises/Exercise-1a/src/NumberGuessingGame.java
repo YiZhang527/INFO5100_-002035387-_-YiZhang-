@@ -29,23 +29,19 @@ public class NumberGuessingGame {
     public static void startGame(Scanner userInput) {
         Random rand = new Random();
         int answer = rand.nextInt(10) + 1;
-        boolean gameOver = false;
         System.out.println("I have generated a number between 1 and 10. You have at most 5 attempts to guess it.");
         for (int i = 1; i <= 5; i++) {
             System.out.println("Please enter the number between 1-10 you want to guess:");
             int number = userInput.nextInt();
             if (number == answer) {
                 System.out.println("Correct!");
-                gameOver = true;
-                break;
+                return;
             } else if (number > answer) {
                 System.out.println("Too high!");
             } else {
                 System.out.println("Too low!");
             }
         }
-        if (!gameOver) {
-            System.out.println("The correct number is " + answer + " !");
-        }
+        System.out.println("The correct number is " + answer + " !");
     }
 }
