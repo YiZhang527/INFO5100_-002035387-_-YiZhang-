@@ -20,10 +20,10 @@
 - A random number from 1 to 10 is generated as the answer through the Random method.
 - The program will show "I have generated a number between 1 and 10. You have at most 5 attempts to guess it.", "Please enter the number between 1-10 you want to guess:".
 - The user has up to 5 chances to guess the number：
- - If the guess is equal to the answer, the program prints "Correct!" and ends the game.
- - If the guess is greater than the answer, the program shows "Too high!".
- - If the guess is smaller than the answer, the program shows "Too Low!".
- - If the user does not guess the number within 5 chances, the program shows: "The correct number is X !".
+  - If the guess is equal to the answer, the program prints "Correct!" and ends the game.
+  - If the guess is greater than the answer, the program shows "Too high!".
+  - If the guess is smaller than the answer, the program shows "Too Low!".
+  - If the user does not guess the number within 5 chances, the program shows: "The correct number is X !".
 
 ### Program End
 
